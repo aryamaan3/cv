@@ -1,0 +1,8 @@
+dist/
+cvFR.ps
+cvFR.dvi
+cvFR.aux
+cvFR.log
+cvFR.synctex.gz
+*.swp
+.DS_Store
