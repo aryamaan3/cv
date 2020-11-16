@@ -1,5 +1,5 @@
-# generation cv avec shading\n
-telechargez shading.zip\n
+# generation cv avec shading
+telechargez shading.zip\
 Mac:\n
 $ mkdir -p ~/Library/texmf/tex/latex/\n
 $ cd ~/Library/texmf/tex/latex/\n
