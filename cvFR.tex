@@ -5,7 +5,7 @@
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 %-----------------------------------------------------------
 %Margin setup
@@ -25,6 +25,7 @@
 %-----------------------------------------------------------
 %\usepackage{fullpage}
 \usepackage{shading}
+\usepackage{hyperref}
 %\textheight=9.0in
 \pagestyle{empty}
 \raggedbottom
@@ -48,7 +49,7 @@
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 \textbf{\Large Aryamaan "Arry" Kunwar} \\
 0782404718 &   linkedin.com/in/aryamaan3/\\
-aryamaan3@gmail.com & github.com/aryamaan3\\
+aryamaan3@gmail.com & aryamaan3.github.io\\
 \end{tabular*}
 \\
 
@@ -57,39 +58,39 @@ aryamaan3@gmail.com & github.com/aryamaan3\\
 \resheading{Formations}
 \begin{itemize}
 \item
-	\ressubheading{Université Côte d'Azur}{Sophia Antipolis}{Licence MIAGE}{Septembre 2018 - Septembre 2020}
+	\ressubheading{Université Côte d'Azur}{Sophia Antipolis}{Licence MIAGE}{Septembre 2018 - Septembre 2021}
 	\begin{itemize}
 		\resitem{Informatique, Mathématiques, Economie \& Gestion}
 	\end{itemize}
 
 \item
-	\ressubheading{Lycée Renoir}{Cagnes Sur Mer}{Baccalauréat Général}{2018}
+	\ressubheading{Lycée Renoir}{Cagnes Sur Mer}{Baccalauréat Général série scientifique}{2018}
 
 \end{itemize}
 
-\resheading{Expériences Professionnelles}
-\begin{itemize}
-\item
-	\ressubheading{Coonver Consultancy}{Nice}{Marketing Réseaux Sociaux}{Juin 2019 - Août 2019}
-	\begin{itemize}
-		\resitem{Création et gestion des réseaux sociaux}
-	\end{itemize}
-\end{itemize}
+%\resheading{Expériences Professionnelles}
+%\begin{itemize}
+%\item
+	%\ressubheading{Coonver Consultancy}{Nice}{Marketing Réseaux Sociaux}{Juin 2019 - Août 2019}
+	%\begin{itemize}
+		%\resitem{Création et gestion des réseaux sociaux}
+	%\end{itemize}
+%\end{itemize}
 
 \resheading{Compétences}
 \begin{itemize}
 \item
-	\ressubheading{Programmation}{}{C, Python, R}{}
+	\ressubheading{Bilingue}{}{Ayant comme langue maternelle l'Anglais}{}
 \item
-	\ressubheading{Programmation Orienté Objet}{}{Java, Python}{}
+	\ressubheading{Programmation}{}{Java, C, Python, R}{}
 \item
 	\ressubheading{Web}{}{Javascript, PHP, HTML/CSS}{}
 \item
-	\ressubheading{Data Science}{}{Python(Pandas, Seaborn), R, SQL}{}
+	\ressubheading{Frameworks}{}{Angular, Node.js, Maven}{}
 \item
-	\ressubheading{Frameworks}{}{Node.js, GIT}{}
+	\ressubheading{Data Science}{}{Python(Pandas/Seaborn), R, SQL}{}
 \item
-	\ressubheading{Informatique}{}{Algorithmes, Bases de données, Systèmes \& Réseaux, Méthodes Agiles, \LaTeX}{}
+	\ressubheading{Informatique}{}{POO, Algorithmes, Bases de données, Systèmes \& Réseaux, Méthodes Agiles(GIT), \LaTeX}{}
 \item
 	\ressubheading{Mathématiques}{}{Statistiques, Probabilités, Algèbre Linéaire}{}
 \item
@@ -97,11 +98,29 @@ aryamaan3@gmail.com & github.com/aryamaan3\\
 	
 \end{itemize}
 
-\resheading{Projets}
-
-\begin{description}
-\item[House Prices: Regression Technique]
-Utilisation de Python afin d'estimer les valeurs des biens immobiliers
-\end{description}
+\resheading{Projets Personnelles}
+\begin{itemize}
+\item
+	\ressubheading{Jeu sur Java}{\href{https://github.com/aryamaan3/Batisseurs}{Code source }{et}	\href{https://aryamaan3.github.io/Batisseurs/}{Demo}{ sur GitHub}}{Création d'un jeu avec implementation client-serveur}{Java, JUnit, Maven, Git, GitHub}
+	\begin{itemize}
+		\resitem{Projet en groupe de 5}
+		\resitem{Utilisations des méthodes agiles avec des livraisons régulières pendant 9 semaines}
+		\resitem{Utilisation des principes GRASP et SOLID pour l'architecture}
+		
+	\end{itemize}
+\item	
+	\ressubheading{Estimation du prix des biens immobiliers}{Kaggle}{Réalisé sur Jupyter notebook}{Python, Pandas, Seaborn, NumPy}
+	\begin{itemize}
+		\resitem{Fichier csv avec des centaines de maisons et leurs attributs}
+		\resitem{Nettoyage et analyse des données}
+		\resitem{Visualisation de données}
+	\end{itemize}
+\item	
+	\ressubheading{Interface méteo}{\href{https://github.com/aryamaan3/Weather-Interface}{Code source sur GitHub}}{Génération du plan avec la météo d'une adresse}{Javascript, JSON, PHP}
+	\begin{itemize}
+		\resitem{Gestion du JSON envoyé par un api de plans et de météo}
+		\resitem{Gestion côté serveur}	
+	\end{itemize}
+\end{itemize}
 
 \end{document}
