@@ -7,6 +7,6 @@ mettez shading.zip dans tex/latex\
 $ tar -C ~/Library/texmf/tex/latex/ -xvf shading.zip\
 $ latex cvFR.tex\
 $ dvips -Ppdf -t letter cvFR.dvi\
-$ ps2pdf cvFR.ps\
+$ ps2pdf cvFR.ps
 
 template de http://www.davidgrant.ca/latex_resume_template
