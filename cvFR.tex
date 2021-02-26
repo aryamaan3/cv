@@ -5,23 +5,23 @@
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 %-----------------------------------------------------------
 %Margin setup
 
-\setlength{\voffset}{0.1in}
+%\setlength{\voffset}{0.1in}
 \setlength{\paperwidth}{8.5in}
 \setlength{\paperheight}{11in}
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0in}
 \setlength{\textheight}{11in}
-\setlength{\textheight}{9.5in}
-\setlength{\topmargin}{-0.25in}
-\setlength{\textwidth}{7in}
+\setlength{\textheight}{10in}
+\setlength{\topmargin}{-0.54in}
+\setlength{\textwidth}{7.5in}
 \setlength{\topskip}{0in}
-\setlength{\oddsidemargin}{-0.25in}
-\setlength{\evensidemargin}{-0.25in}
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\evensidemargin}{-0.5in}
 %-----------------------------------------------------------
 %\usepackage{fullpage}
 \usepackage{shading}
@@ -35,92 +35,119 @@
 %-----------------------------------------------------------
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+
 \newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubheadinga}[2]{
+\begin{tabular*}{7.11in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+\end{tabular*}}
+
+\newcommand{\ressubheadingb}[2]{
+\begin{tabular*}{7.11in}{l@{\extracolsep{\fill}}r}
+		\textit{#1} & \textit{#2} \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
 
 \begin{document}
 
-\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
-\textbf{\Large Aryamaan "Arry" Kunwar} \\
-0782404718 &   {\href{https://www.linkedin.com/in/aryamaan3/}{linkedin.com/in/aryamaan3/}}\\
-aryamaan3@gmail.com & {\href{https://aryamaan3.github.io}{aryamaan3.github.io}}\\
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Aryamaan ``Ary''  Kunwar} \vspace{1pt}\\
+0782404718 &   {linkedin.com/in/aryamaan3/}\\
+aryamaan3@gmail.com & {aryamaan3.github.io}\\
 \end{tabular*}
 \\
 
-\vspace{0.1in}
+%\vspace{-0.15in}
 
-\resheading{Formations}
+\resheading{Formation}
+%\vspace{-0.235in}
 \begin{itemize}
 \item
-	\ressubheading{Université Côte d'Azur}{Sophia Antipolis}{Licence MIAGE}{Septembre 2018 - Septembre 2021}
+	\ressubheadinga{Licence MIAGE}{Sophia Antipolis}
+	\ressubheadingb{Université Côte d'Azur}{Septembre 2018 - Août 2021}
 	\begin{itemize}
 		\resitem{Informatique, Mathématiques, Economie \& Gestion}
 	\end{itemize}
 
-\item
-	\ressubheading{Lycée Renoir}{Cagnes Sur Mer}{Baccalauréat Général série scientifique}{2018}
 
 \end{itemize}
 
-%\resheading{Expériences Professionnelles}
-%\begin{itemize}
-%\item
-	%\ressubheading{Coonver Consultancy}{Nice}{Marketing Réseaux Sociaux}{Juin 2019 - Août 2019}
-	%\begin{itemize}
-		%\resitem{Création et gestion des réseaux sociaux}
-	%\end{itemize}
-%\end{itemize}
-
-\resheading{Compétences}
+%\vspace{-0.23in}
+\resheading{Expérience Professionnelle}
+%\vspace{-0.235in}
 \begin{itemize}
 \item
-	\ressubheading{Bilingue}{}{Ayant comme langue maternelle l'Anglais}{}
+	\ressubheadinga{Développeur Web et Data}{À partir de Mai 2021}
+	\ressubheadingb{Stage 3 mois - AEMILIO}{Python, SciKit, Flask, Node.js, React.js, MongoDB}
+	\begin{itemize}
+		\resitem{Création d'une plateforme basé sur le cloud}
+		\resitem{Codage des modèles de machine learning}
+		\resitem{Mise en production du modèle sur une application web}
+	\end{itemize}
+\end{itemize}
+
+%\vspace{-0.16in}
+\resheading{Projets Personnels}
+%\vspace{-0.235in}
+\begin{itemize}
 \item
-	\ressubheading{Programmation}{}{Java, C, Python, R}{}
-\item
-	\ressubheading{Web}{}{Javascript, PHP, HTML/CSS}{}
-\item
-	\ressubheading{Frameworks}{}{Angular, Node.js, Maven}{}
-\item
-	\ressubheading{Data Science}{}{Python(Pandas/Seaborn), R, SQL}{}
-\item
-	\ressubheading{Informatique}{}{POO, Algorithmes, Bases de données, Systèmes \& Réseaux, Méthodes Agiles(GIT), \LaTeX}{}
-\item
-	\ressubheading{Mathématiques}{}{Statistiques, Probabilités, Algèbre Linéaire}{}
-\item
-	\ressubheading{Economie \& Gestion}{}{Finance, Macroéconomie, Microéconomie, Comptabilité, Marketing}{}
+	\ressubheadinga{Jeu sur Java}{}
+	\ressubheadingb{Création d'un jeu avec implementation client-serveur}{Java, JUnit, Maven, Git}
+	\vspace{-0.15in}
+	\begin{itemize}
+		\resitem{Groupe de 5, utilisation des méthodes \textbf{AGILES} avec des livraisons régulières pendant 9 semaines}
+		\resitem{Création d'un bot intelligent et un bot random, le bot intelligent gagne 90\% du temps}
+		\resitem{Utilisation des principes \textbf{GRASP} et \textbf{SOLID} pour l'architecture}
+		
+	\end{itemize}
+	
+\item	
+	\ressubheadinga{Estimation du prix des biens immobiliers}{}
+	\ressubheadingb{Réalisé sur Jupyter notebook}{Python, SciKit, Pandas, Seaborn, NumPy}
+	\vspace{-0.15in}
+	\begin{itemize}
+		\resitem{Nettoyage et visualisation des données}
+		\resitem{Utilisation de SciKit afin de comparer les modèles ML}
+		\resitem{Modèle choisie : Forêt Aléatoire}
+		\resitem{\textbf{MAE} en dessous de 17.000}
+	\end{itemize}
+	
+\item	
+	\ressubheadinga{Création d'un API REST}{\textit{Python, Flask, SQLite}}
+	\vspace{-0.25in}
+	\begin{itemize}
+		\resitem{API permettant d'interagir avec des vidéos dans une base de données}
+		\resitem{Implementation des requêtes : get, put, patch(update) et delete}
+		\resitem{Utilisation de \texttt{SQLAlchemy} pour la base de données}
+	\end{itemize}
+	
+\item	
+	\ressubheadinga{Site de jeux en ligne}{En cours}
+	\ressubheadingb{Démineur et 2048}{Javascript}
+	\vspace{-0.15in}
+	\begin{itemize}
+		\resitem{Utilisation du canvas pour Démineur, DOM pour 2048}
+		\resitem{Chaque utilisateur a un profil contenant ses statistiques}
+		\resitem{Implementation de l'Architecture \textbf{PAC} et des principes \textbf{IHM}}
+		\resitem{Réalisé avec les méthodologies \textbf{AGILES} durant 5 itérations}
+	\end{itemize}
 	
 \end{itemize}
 
-\resheading{Projets Personnelles}
-\begin{itemize}
-\item
-	\ressubheading{Jeu sur Java}{\href{https://github.com/aryamaan3/Batisseurs}{Code source }{et}	\href{https://aryamaan3.github.io/Batisseurs/}{Demo}{ sur GitHub}}{Création d'un jeu avec implementation client-serveur}{Java, JUnit, Maven, Git, GitHub}
-	\begin{itemize}
-		\resitem{Projet en groupe de 5}
-		\resitem{Utilisations des méthodes agiles avec des livraisons régulières pendant 9 semaines}
-		\resitem{Utilisation des principes GRASP et SOLID pour l'architecture}
-		
-	\end{itemize}
-\item	
-	\ressubheading{Estimation du prix des biens immobiliers}{Kaggle}{Réalisé sur Jupyter notebook}{Python, Pandas, Seaborn, NumPy}
-	\begin{itemize}
-		\resitem{Fichier csv avec des centaines de maisons et leurs attributs}
-		\resitem{Nettoyage et analyse des données}
-		\resitem{Visualisation de données}
-	\end{itemize}
-\item	
-	\ressubheading{Interface méteo}{\href{https://github.com/aryamaan3/Weather-Interface}{Code source sur GitHub}}{Génération du plan avec la météo d'une adresse}{Javascript, JSON, PHP}
-	\begin{itemize}
-		\resitem{Gestion du JSON envoyé par un api de plans et de météo}
-		\resitem{Gestion côté serveur}	
-	\end{itemize}
-\end{itemize}
+%\vspace{-0.16in}
+\resheading{Compétences}
+\vspace{-0.10in}
+
+\textbf{Langages:} Python, JavaScript, C/C++, Java, R, PHP. \linebreak \textbf{Frameworks:} PyTorch, TensorFlow, Keras, React, Flask, Node, Vue, Angular, Maven.
+
+\end{document}
 
 \end{document}
