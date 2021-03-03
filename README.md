@@ -14,13 +14,13 @@ mettez shading.zip dans tex/latex
 $ tar -C ~/Library/texmf/tex/latex/ -xvf shading.zip
 ```
 ```
-$ latex cvFR.tex
+$ latex resume.tex
 ```
 ```
-$ dvips -Ppdf -t letter cvFR.dvi
+$ dvips -Ppdf -t letter resume.dvi
 ```
 ```
-$ ps2pdf cvFR.ps
+$ ps2pdf resume.ps
 ```
 
 template de http://www.davidgrant.ca/latex_resume_template
